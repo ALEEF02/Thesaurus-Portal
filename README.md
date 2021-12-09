@@ -1,6 +1,6 @@
 # Thesaurus-Portal
 
-A small project for school that I whipped up that pulls random words from the dictionary and displays them on intervals. Very similar to a 'word of the day', but in batches and customizable intervals. Click the 'ear' button to get a pronunciation of the word.
+A small project for school that I whipped up that pulls random words from the dictionary and displays them on intervals. Very similar to a 'word of the day', but in batches and customizable intervals. Click the 'ear' button to get a pronunciation of the word. *Example runs can be found in [the media folder](media/)*
 
 ## Setup
 ### secrets.py
@@ -23,4 +23,4 @@ How many seconds to display a word on screen at once for. Repeated `BATCH_REPETI
 ##### BATCH_REPETITIONS
 Number of times to display the batch in order before fetching a new batch of words
 ##### USE_VOICERSS
-Flag to tell the program whether to use Voice RSS as your pronunciation source. Has the benefit that it will *always* have a pronunciation for a word, no matter how strange that word is
+Flag to tell the program whether to use Voice RSS as your pronunciation source. Has the benefit that it will *always* have a pronunciation for a word, no matter how strange that word is.
